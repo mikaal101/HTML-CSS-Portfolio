@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Portfolio Section</title>
+        <link rel="stylesheet" href="Resources/Css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Outfit:wght@100..900&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <!--The capsule navigation bar-->
+        <header class="website_header">
+            <nav class="navbar">
+                <ul class="website_links">
+                    <li class="website_title"><b>Mikaal's Website</b></li>
+                    <li class="middle_group">
+                        <ul class="middle_links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="resume.html">Resume</a></li>
+                            <li><a href="process.html">Process</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="contact_text" href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="home_page">
+            <main>
+                <div class="header_box">
+                    <h1 class="headerBox_text">My Portfolio</h1>
+                </div>
+                <!-- internship section -->
+                <h2>My Internship <span class="h2_variant">Experiences</span></h2>
+                <div class="internships">
+                    <div class="wide_card">
+                        <img class="wide_card_image" src="Resources/Images/internshipAI.png">
+                        <p>Generative AI Intern at Avanza Innovations</p><p>Learnt how to use OpenAI's responses API using python. Learnt how to build a RAG pipeline which included chunking a text file, embedding it, running semantic search with the prompt's embedding and the embeddings of the text file, using matching embeddings as context for the LLM to respond. Built a chat bot with streamed responses and used Gradio for the interface. Used Hugging Face and Google Colab to train AI models.</p>
+                    </div>
+                    <div class="wide_card">
+                        <img class="wide_card_image" src="Resources/Images/internshipPura.png">
+                        <p>UI/UX Intern at Pure Heath, PureCS</p><p>Studied the NHS Accessibility Checklist, learnt about design systems, created a sitemap of an improved version of the Pura app website. Then, I started to create wireframes for both desktop and mobile view. During this process, I learnt a lot of key skills such as gridding and spacing systems, interactive prototyping, and colour theory. The output was an interactive website prototype with three variations depending on the colour direction.</p>
+                    </div>
+                </div>
+                <!-- School Projects section -->
+                <h2><span class="h2_variant">Notable</span> School Projects</h2>
+                <div class="uni_projects">
+                    <div class="card">
+                        <img class="card_image" src="Resources/Images/makerspace_card.png" alt="screenshots of the Makerspace navigation app such as the FAQ, map, and guidance">
+                        <p>Hi-fi interactive prototype of a website I was tasked to create as part of a group project to help students find the Makerspace in the University. I used Figma and Photoshop.</p>
+                    </div>
+                    <div class="card">
+                        <img class="card_image" src="Resources/Images/wiki_redesign.png" alt="Wikipedia redesign process from wireframes to medium-fi prototype on desktop and mobile">
+                        <p>Tasked to redesign the information architecture and UI of a Wikipedia page. I revised the IA then created wireframes, photoshopped images, medium-fi prototype for desktop and mobile.</p>
+                    </div>
+                    <div class="card">
+                        <video class="card_video" controls aria-label="A clip from a video explaining the different wire types" autoplay muted loop>
+                            <source src="Resources/Videos/wire_types.mp4">
+                        </video>
+                        <iframe class="card_video_frame" src="https://www.youtube.com/embed/2N5N3FsbPvM?si=eRvRzv0Wc2PcYPBq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <p>During highschool, had various video editing projects. Using FCPX, I created the top video which explains the wire types, and the bottom video part of a campagin to raise awareness.</p>
+                    </div>
+                    <div class="card">
+                        <img class="card_image_half" src="Resources/Images/unitygame.png" alt="Three images showing the 3D Maya software, a page of the worldbuilding pitch, and the logo of the game">
+                        <video class="card_video" controls aria-label="A video showcasing brief gameplay of Svarza" autoplay muted loop>
+                            <source src="Resources/Videos/unity_game.mov">
+                        </video>
+                        <p>As part of a worldbuilding project, I created a game using Unity, C#, Photoshop, and Maya. The process started with a design pitch, then the 3D models, and finally, the game on Unity. </p>
+                    </div>
+                    <div class="card">
+                        <img class="card_image" src="Resources/Images/zine.png" alt="Three different pages of the Cyberpunk zine">
+                        <p>Created a zine about the world of Cyberpunk using Photoshop, Apple pages, as well as a series of readings related to the course: Digital Innovation and Cultural Transformation.</p>
+                    </div>
+                    <div class="card">
+                        <img class="card_image" src="Resources/Images/robotic_arm.png" alt="Robotic arm development process showing Arduino wiring, 3D models, and the prototype">
+                        <p>A highschool project involving the creation of a mechanical robotic arm. The tools used to create this arm were Fusion 360, 3D printer, Arduino, servos, joy-stick, Dupont wires, breadboard.</p>
+                    </div>
+                </div>
+            </main>
+            <!-- The footer -->
+            <footer class="foot">
+                <div class="footer_title">
+                    <h2>Mikaal's<br>Personal Website</h2>
+                    <hr class="foot_line">
+                </div>
+                <div class="footer_social_links">
+                    <h3>Contact Information</h3>
+                    <hr class="foot_line">
+                    <ul class="foot_links">
+                        <li>Email: mikaal.bashir@mail.utoronto.ca</li>
+                        <li><img src="Resources/Images/social_media_logo.png" class="contact_image_small"><a href="https://www.linkedin.com/in/mikaal-b-6088a22a2/" target="_blank">Linkedin</a></li>
+                        <li><img src="Resources/Images/insta_logo.png" class="contact_image_small"><a href="#">Instagram</a></li>
+                        <li><img src="Resources/Images/whatsapp_logo.png" class="contact_image_small"><a href="#">Whatsapp</a></li>
+                    </ul>
+                </div>
+                <div class="uni_map">
+                    <h3>Navigation</h3>
+                    <hr class="foot_line">
+                    <ul class="foot_links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="process.html">Process</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
